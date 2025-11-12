@@ -51,10 +51,9 @@ st.markdown("""
         font-family: "Yu Gothic", "Meiryo", "Hiragino Kaku Gothic ProN", sans-serif;
     }
     .custom-h4 {
-        font-size: 1em !important;
+        font-size: 1.1em !important;
         font-family: "Yu Gothic", "Meiryo", "Hiragino Kaku Gothic ProN", sans-serif;
         letter-spacing: 0.05em;
-
     }
     p, div, span {
         font-size: 1em !important;
