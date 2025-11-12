@@ -50,7 +50,7 @@ st.markdown("""
         font-size: 1.3em !important;
     }
     .custom-h4 {
-        font-size: 1.1em !important;
+        font-size: 1em !important;
     }
     p, div, span {
         font-size: 1em !important;
