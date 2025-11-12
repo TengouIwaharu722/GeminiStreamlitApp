@@ -47,10 +47,10 @@ st.markdown("""
 <style>
 @media screen and (max-width: 768px) {
     h1, h2, h3, h4 {
-        font-size: 1.2em !important;
+        font-size: 1.4em !important;
     }
     .custom-h4 {
-        font-size: 1em !important;
+        font-size: 1.2em !important;
     }
     p, div, span {
         font-size: 1em !important;
