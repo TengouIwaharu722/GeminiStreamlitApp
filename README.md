@@ -1,0 +1,2 @@
+# GeminiStreamlitApp
+Geminiと連動したチャットボット
