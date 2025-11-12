@@ -40,6 +40,19 @@ chat = model.start_chat(history=history)
 st.header("就職支援ソフト【ナベちゃん】")
 st.markdown("#### プロが教えてさしあげます")
 
+st.markdown("""
+<style>
+@media screen and (max-width: 768px) {
+    h1, h2, h3, h4 {
+        font-size: 1.2em !important;
+    }
+    p, div, span {
+        font-size: 1em !important;
+    }
+}
+</style>
+""", unsafe_allow_html=True)
+
 # セッションステート初期化
 for key, default in {
     "question_input": "",

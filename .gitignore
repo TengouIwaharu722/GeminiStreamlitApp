@@ -9,6 +9,3 @@ __pycache__/
 
 # VSCode設定（任意）
 .vscode/
-
-# 履歴ファイル（アップしない場合）
-chat_history.json
