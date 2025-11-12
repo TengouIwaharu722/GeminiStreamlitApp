@@ -38,13 +38,19 @@ chat = model.start_chat(history=history)
 
 # Streamlit UI
 st.header("就職支援ソフト【ナベちゃん】")
-st.markdown("#### プロが教えてさしあげます")
+st.markdown("""
+<h4 class="custom-h4">プロが教えてさしあげます</h4>
+""", unsafe_allow_html=True)
+
 
 st.markdown("""
 <style>
 @media screen and (max-width: 768px) {
     h1, h2, h3, h4 {
         font-size: 1.2em !important;
+    }
+    .custom-h4 {
+        font-size: 1em !important;
     }
     p, div, span {
         font-size: 1em !important;
