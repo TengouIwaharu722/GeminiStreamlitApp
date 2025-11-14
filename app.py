@@ -3,7 +3,7 @@
 cd F:\Python_home\GeminiStreamlitApp
 streamlit run app.py
 終了するにはターミナルで「CTRL+C」を入力です。
-
+https://geministreamlitapp.onrender.com/
 """
 import streamlit as st
 import os
